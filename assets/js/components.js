@@ -135,7 +135,7 @@ class Card extends HTMLElement {
 
     // set newsletter
     if (!newsletter) {
-      newsletter = `<a href="#" class="card-link">No Newsletter</a>`;
+      newsletter = '';
     }
     else{
       newsletter = `<a href="${newsletter}" class="card-link">Newsletter</a>`;
@@ -143,15 +143,15 @@ class Card extends HTMLElement {
 
     // set podcast
     if (!podcast) {
-      podcast = `<a href="#" class="card-link">No Podcast</a>`;
+      podcast = '';
     }
     else{
       podcast = `<a href="${podcast}" class="card-link">Podcast</a>`;
     }
 
-    // set podcast
+    // set video
     if (!video) {
-      video = `<a href="#" class="card-link">No Video</a>`;
+      video = '';
     }
     else{
       video = `<a href="${video}" class="card-link">Video</a>`;
